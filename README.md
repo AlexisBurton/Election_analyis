@@ -4,10 +4,10 @@
 This code was written to determine the results of a district election. The goal was to determine not only the overall winner, but also give a breakdown of total votes by county. 
 
 ## Election Audit Results
-- There were a total of votes 369,711 cast. This was calculated by setting the initial vote count to zero, and then running through each data row of the original .csv file and adding 1 to the total vote count for each iteration. [total vote code](Documentation/total\ vote\ code.png)
+- There were a total of votes 369,711 cast. This was calculated by setting the initial vote count to zero, and then running through each data row of the original .csv file and adding 1 to the total vote count for each iteration. [total vote code](Documentation/total%20vote%20code.png)
 
 - Votes by County: 
-Similar to calculating the total election results, an initial county vote variable was set to zero. This variable however was created as a dictionary tied to the County names, so as the program iterated through the .csv data, a vote was added to the appropriate dictionary entry based on the county listed in each row. [county vote code](Documentation/county\ vote\ code.png)
+Similar to calculating the total election results, an initial county vote variable was set to zero. This variable however was created as a dictionary tied to the County names, so as the program iterated through the .csv data, a vote was added to the appropriate dictionary entry based on the county listed in each row. [county vote code](Documentation/county%20vote%20code.png)
 
 
 	| County | Votes Cast | % of Total Votes |
